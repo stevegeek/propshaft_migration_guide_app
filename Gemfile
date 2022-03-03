@@ -9,8 +9,8 @@ gem 'rails', '~> 7.0'
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
-# Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
+# Propshaft for asset pipeline
+gem 'propshaft', '~> 0.6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'jsbundling-rails', '~> 1.0'
 gem 'cssbundling-rails', '~> 1.1'
