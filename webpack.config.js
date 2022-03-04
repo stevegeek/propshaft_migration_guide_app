@@ -8,6 +8,9 @@ module.exports = {
   entry: {
     application: "./app/javascript/application.js"
   },
+  resolve: {
+    modules: ["app/javascript", "node_modules"],
+  },
   output: {
     filename: "[name].js",
     sourceMapFilename: "[file].map",
